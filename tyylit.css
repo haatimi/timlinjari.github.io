@@ -1,0 +1,74 @@
+
+/* body rungon tyylit */
+body {
+	background-color:#000;
+	background-position:top;
+	font-family:Arial;
+	font-size:1em;
+}
+
+/* Kääreen tyylit */
+#kääre {
+	margin-top:10px;
+	margin-bottom:10px;
+	position:absolute;
+	left:50%;
+	width:800px;
+	margin-left:-400px;
+	background-color:#007FFF;
+
+}
+/* otsikkolohkon tyylit */
+#otsikko {
+	width:800px;
+	height:95px;
+	
+}
+/* valikkolohkon tyylit */
+#valikko {
+	position:absolute;
+	width:800px;
+	padding-top:2px;
+	padding-bottom:2px;
+	display:table-row;
+	word-spacing:100px;
+	text-align:center;
+	background-color:#007FFF;
+	
+}
+/* valikon linkkien värit */
+#valikko a:link, #valikko a:visited {
+	color:#fff;
+	text-decoration:none;
+}
+/* valikon hover värit */
+#valikko a:hover {
+	color:#000;
+}
+/* sisältölohkon tyylit */
+#sisältö {
+	padding:40px;
+}
+/* alalohkon tyylit */
+#alalohko {
+	text-align:center;
+	background-color:#007FFF;
+	padding-top:2px;
+	padding-bottom:2px;
+	color:#fff;
+	font-size:0.9em;
+}
+/* tyyliluokka keskitys */
+#sisältö.keskitetty {
+	text-align:center;
+}
+/* otsikko koon h1 tyylit */
+h1{
+	font-size:1.5em;
+}
+/* otsikko koon h2 tyylit */
+
+h2{
+	font-size:1.2em;
+
+}

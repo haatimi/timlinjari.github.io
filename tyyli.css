@@ -1,0 +1,81 @@
+
+/* body elementin tyylit */
+body {
+	background-color:#000;
+	font-family:Arial;
+	font-size:1em;
+	text-align:center;
+	/*line-height:120%;*/
+}
+/* kääreen tyylit */
+#kääre{
+	margin-top:10px;
+	margin-bottom:10px;
+	position:absolute;
+	width:800px;
+	left:50%;
+	margin-left:-400px;
+	background-color:#007FFF;
+
+}
+/* otsikko lohkon tyylit */
+#otsikko{
+	width:800px;
+	height:95px;
+	
+}
+/* vasemman lohkon tyylit */
+#vasen{
+	float:left;
+	width:200px;
+	background-color:#007FFF;
+	display:table-column;
+	text-align:left;
+	padding:2em;
+	line-height:1.5;
+}
+/* valikkolohkon tyylit */
+#valikko {
+	position:absolute;
+	width:800px;
+	padding-top:2px;
+	padding-bottom:2px;
+	display:table-row;
+	word-spacing:100px;
+	text-align:center;
+	background-color:#007FFF;
+}
+/* valikon linkkien tyylit */
+#valikko a:link, #valikko a:visited{
+	color:#ffffff;
+	text-decoration:none;
+}
+
+#valikko a:hover{
+	color:#000000;
+}
+
+/* sisältölohkon tyylit */
+#sisältö{
+	width:600px;
+	margin-left:200px;
+	padding:10px;
+}
+/* alalohkon tyylit */
+#alalohko{
+	clear:both;
+	width:796px;
+	padding:2px;
+	color:#fff;
+	background-color:#007FFF;
+	font-size:0.9em;
+}
+/* otsikon tyylit */
+
+h1{
+	font-size:1.2em;
+}
+h2{
+	font-size:1em;
+}
+
